@@ -1,0 +1,3 @@
+Problem: Flickering from some terrain scenes.
+
+Solution: The flickering is caused by your scene's Camera's clipping settings.  It's not an issue with the terrains.  Sometimes when you set a low number for your camera "CLIPPING PLANES" setting, the terrains might flicker due to the longer distance.  You have to set a higher number for the "Far" property of Clipping Planes.
